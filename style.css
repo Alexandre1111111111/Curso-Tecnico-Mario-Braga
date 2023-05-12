@@ -1,0 +1,60 @@
+img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#0f708d	;
+}
+body {
+    width: 1634px;
+    height: 913px;
+    margin: 0 auto;
+    background-color:#73ecec;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(66, 69, 233);
+    background: center / cover url(https://img.freepik.com/free-vector/gradient-blue-dynamic-lines-background_23-2148995926.jpg?w=1380&t=st=1683851323~exp=1683851923~hmac=818908dd6ffb635dd3ae7fda07bc82af7d951ca6ba44470a23bb7753c21689ad);
+}
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.Introdução {
+    font-size: 30px;
+    text-align: center;
+    color:	#0a3c4b	;
+}
+p,li {
+    line-height: 5;
+}
+  li {
+    list-style-type: none;
+}
+.Continuações {
+    font-size: 35px;
+    text-align: center;
+    line-height: 5;
+}
+.Cabeçalho {
+    background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    font-size: 50px;
+    font: "Open Sans", sans-serif;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+    
+}
+.Cadastrar {
+    font-size: 50px;
+}
+.Seguir {
+    font-size: 50px;
+}
