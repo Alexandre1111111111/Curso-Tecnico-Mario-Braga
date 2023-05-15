@@ -1,0 +1,34 @@
+.Cabeçalho {
+    background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+    font: "Open Sans", sans-serif;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+    border: 3px solid rgb(47, 50, 221);
+}
+.Cadastrar {
+    font-size: 50px;
+}
+body {
+    width: 1634px;
+    height: 913px;
+    margin: 0 auto;
+    background-color:#73ecec;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(66, 69, 233);
+    background: center / cover url(https://img.freepik.com/free-vector/gradient-abstract-greend-blue-background-with-geometric-elements_23-2149399995.jpg?w=1380&t=st=1683921635~exp=1683922235~hmac=e8e8734385e845de8f296789fcead426f59ef1af4e25042ccb82d6a10136a290);
+}
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.Voltar {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}

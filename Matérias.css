@@ -1,0 +1,60 @@
+.Cabeçalho {
+    background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    font-size: 50px;
+    font: "Open Sans", sans-serif;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+    border: 3px solid rgb(47, 50, 221);
+}
+.Cadastrar {
+    font-size: 50px;
+}
+.Seguir {
+    font-size: 50px;
+}
+body {
+    width: 1615px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color:#73ecec;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(66, 69, 233);
+    background: center / cover url(https://img.freepik.com/free-vector/circuits-blue-red-gradient-digital-background_23-2148821701.jpg?w=1380&t=st=1683921856~exp=1683922456~hmac=9b551ababd0e2aee77b74a5a2e3687dabe08f6fdddadd1a7d952b681c6bdb834);
+}
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#b65746	;
+    text-shadow: 1px 1px 1px 	black;
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#9e78bd	;
+}
+p {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#00ccff	;
+    line-height: 1.5;
+}

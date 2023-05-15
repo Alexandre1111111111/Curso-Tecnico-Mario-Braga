@@ -1,0 +1,71 @@
+.Cabeçalho {
+    background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+    font: "Open Sans", sans-serif;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+    border: 3px solid rgb(47, 50, 221);
+}
+.Seguir {
+    font-size: 50px;
+}
+body {
+    width: 1634px;
+    height: 913px;
+    margin: 0 auto;
+    background-color:#73ecec;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(66, 69, 233);
+    background: center / cover url(https://img.freepik.com/free-vector/gradient-technology-symbols-background_23-2149110134.jpg?w=1380&t=st=1683921849~exp=1683922449~hmac=c93bf233f443033c6857b53018de88da828b55ed6847c65ab6af1081c7911102);
+}
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.Voltar {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#5ec6e6	;
+    text-shadow: 1px 1px 1px 	black;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#7697ad	;
+}
+.Conta {
+    display: flex;
+    margin-left: 660px;
+    height: 30px;
+}
+.Senha {
+    display: flex;
+    margin-left: 660px;
+    height: 30px;
+}
+.Cadastrar {
+    display: flex;
+    margin-left: 885px;
+    margin-top: 100px;
+    height: 40px;
+    font-size: 80px;
+}
+.Confirmar {
+    display: flex;
+    margin-left: 660px;
+    height: 30px;
+}

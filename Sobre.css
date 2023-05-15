@@ -1,0 +1,60 @@
+.Cabeçalho {
+    background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    font-size: 50px;
+    font: "Open Sans", sans-serif;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+    border: 3px solid rgb(47, 50, 221);
+}
+.Cadastrar {
+    font-size: 50px;
+}
+.Seguir {
+    font-size: 50px;
+}
+body {
+    width: 1634px;
+    height: 913px;
+    margin: 0 auto;
+    background-color:#73ecec;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(66, 69, 233);
+    background: center / cover url(https://img.freepik.com/free-vector/gradient-minimalist-background_23-2149974331.jpg?w=1380&t=st=1683921003~exp=1683921603~hmac=65653c52d41b85ca006604967b001c0d23fe028baefa1a5d93cba35df4ea7548);
+}
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#084457	;
+    text-shadow: 1px 1px 1px 	black;
+}
+p {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#115a70	;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 15px;
+    text-align: center;
+    margin: 200px;
+    padding: 20px 0;
+    color:	#115a70	;
+}
