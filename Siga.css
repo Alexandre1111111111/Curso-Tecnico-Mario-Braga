@@ -32,3 +32,39 @@ html {
     display: block;
     margin: 0 auto;
 }
+.Conta {
+    display: flex;
+    margin-left: 660px;
+    height: 30px;
+}
+.Senha {
+    display: flex;
+    margin-left: 660px;
+    height: 30px;
+}
+.Siga {
+    display: flex;
+    margin-left: 920px;
+    margin-top: 60px;
+    height: 40px;
+    font-size: 80px;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#0bca1b	;
+    text-shadow: 1px 1px 1px 	black;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#2178b3	;
+}
+.Linha {
+    width: 380px;
+    margin-top: 70px;
+}
