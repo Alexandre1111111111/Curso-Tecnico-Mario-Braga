@@ -49,24 +49,24 @@ h2 {
 }
 .Conta {
     display: flex;
-    margin-left: 660px;
+    justify-content: center;
     height: 30px;
 }
 .Senha {
     display: flex;
-    margin-left: 660px;
+    justify-content: center;
     height: 30px;
 }
 .Cadastrar {
     display: flex;
-    margin-left: 770px;
+    justify-content: center;
     margin-top: 100px;
     height: 40px;
     font-size: 80px;
 }
 .Confirmar {
     display: flex;
-    margin-left: 660px;
+    justify-content: center;
     height: 30px;
 }
 .Linha {

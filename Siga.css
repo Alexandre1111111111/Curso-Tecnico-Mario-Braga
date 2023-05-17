@@ -34,17 +34,17 @@ html {
 }
 .Conta {
     display: flex;
-    margin-left: 660px;
+    justify-content: center;
     height: 30px;
 }
 .Senha {
     display: flex;
-    margin-left: 660px;
+    justify-content: center;
     height: 30px;
 }
 .Siga {
     display: flex;
-    margin-left: 790px;
+    justify-content: center;
     margin-top: 60px;
     height: 40px;
     font-size: 80px;
