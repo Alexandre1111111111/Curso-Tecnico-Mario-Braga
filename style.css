@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
     background-color:#73ecec;
     padding: 0 20px 20px 20px;
-    border: 3px solid rgb(66, 69, 233);
+    border: 5px solid rgb(66, 69, 233);
     background: center / cover url(Main.jpeg);
 }
 html {
@@ -40,7 +40,8 @@ li {
     font-size: 35px;
     text-align: center;
     line-height: 1;
-    margin: 150px;
+    margin: 132px;
+    position: relative;
 }
 .Cabeçalho {
     background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
