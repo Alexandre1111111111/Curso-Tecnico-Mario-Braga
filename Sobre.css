@@ -58,3 +58,7 @@ h2 {
     padding: 20px 0;
     color:	#115a70	;
 }
+button {
+    background-color: #89e2f8;
+    border: 5px solid #0a5a8f;
+}

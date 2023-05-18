@@ -58,3 +58,7 @@ p {
     color:	#00ccff	;
     line-height: 1.5;
 }
+button {
+    background-color: #89e2f8;
+    border: 5px solid #0a5a8f;
+}

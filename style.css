@@ -63,3 +63,7 @@ li {
 .Seguir {
     font-size: 50px;
 }
+button {
+    background-color: #89e2f8;
+    border: 5px solid #0a5a8f;
+}
