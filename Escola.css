@@ -55,3 +55,10 @@ button {
     background-color: #89e2f8;
     border: 5px solid #0a5a8f;
 }
+.Continuações {
+    font-size: 35px;
+    text-align: center;
+    line-height: 1;
+    margin: 132px;
+    position: relative;
+}
