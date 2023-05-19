@@ -67,3 +67,6 @@ button {
     background-color: #89e2f8;
     border: 5px solid #0a5a8f;
 }
+nav a {
+    padding: 0 15px 0 0;
+}

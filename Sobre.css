@@ -69,3 +69,11 @@ button {
     margin: 132px;
     position: relative;
 }
+nav a {
+    margin-right: 150px;
+}
+.Voltar {
+    height: 95px;
+    display: block;
+    margin-right: 150px;
+}
