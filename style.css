@@ -84,3 +84,6 @@ button a:hover {
 button:active {
     color: #ca1140;
 }
+button a:visited {
+    color: blue;
+}
