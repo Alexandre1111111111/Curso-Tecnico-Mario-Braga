@@ -70,6 +70,9 @@ button {
 nav a {
     padding: 0 15px 0 0;
 }
+button a:visited {
+    color: blue;
+}
 nav a:hover {
     color: #ca1140;
     text-decoration: underline;
@@ -83,7 +86,4 @@ button a:hover {
 }
 button:active {
     color: #ca1140;
-}
-button a:visited {
-    color: blue;
 }
