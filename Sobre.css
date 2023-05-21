@@ -71,6 +71,9 @@ button {
 nav a {
     margin-right: 150px;
 }
+button a:visited {
+    color: blue;
+}
 .Voltar {
     height: 95px;
     display: block;

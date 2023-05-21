@@ -77,6 +77,9 @@ button {
     background-color: #89e2f8;
     border: 5px solid #0a5a8f;
 }
+button a:visited {
+    color: blue;
+}
 nav a:hover {
     color: #ca1140;
     text-decoration: underline;
