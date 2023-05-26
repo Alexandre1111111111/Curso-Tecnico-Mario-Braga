@@ -67,11 +67,6 @@ nav a {
 button a:visited {
     color: blue;
 }
-.Voltar {
-    height: 95px;
-    display: block;
-    margin-right: 150px;
-}
 nav a:hover {
     color: #ca1140;
     text-decoration: underline;
