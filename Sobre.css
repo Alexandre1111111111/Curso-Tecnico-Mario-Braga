@@ -71,6 +71,7 @@ button {
 }
 nav a {
     margin-right: 150px;
+    display: inline;
 }
 button a:visited {
     color: blue;
