@@ -102,11 +102,13 @@ button:active {
     align-items: center;
     justify-content: center;
     border: 7px solid transparent;
+    margin-top: 100px;
     padding: 8px;
     border-image: url(https://png.pngtree.com/background/20210711/original/pngtree-blue-watercolor-background-picture-image_1166464.jpg) 30 round;
 }
-h2 {
+h3 {
     color: #17158f;
+    font-size: 15px;
 }
 nav img {
     height: 250px;
