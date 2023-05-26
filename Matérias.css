@@ -108,3 +108,23 @@ button:hover {
     transition-duration: 0.3s;
     
 }
+.Pé {
+    background: center / cover url(https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-blue-background-design-template-image_290148.jpg);
+    display: flex;
+    width: 97%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid transparent;
+    padding: 8px;
+    border-image: url(https://png.pngtree.com/background/20210711/original/pngtree-blue-watercolor-background-picture-image_1166464.jpg) 30 round;
+}
+h2 {
+    color: #17158f;
+}
+nav img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+}
