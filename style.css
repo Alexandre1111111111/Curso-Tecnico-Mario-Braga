@@ -12,13 +12,15 @@ h1 {
     text-shadow: 1px 1px 1px 	black;
 }
 body {
-    width: 97%;
-    height: 70%;
+    width: 98%;
+    height: 40%;
     margin: 0 auto;
     background-color:#73ecec;
-    padding: 0 20px 20px 20px;
-    border: 5px solid rgb(66, 69, 233);
+    border: 3px solid rgb(66, 69, 233);
+    margin-right: 5px;
+    padding: 0 0 10px 25px;
     background: center / cover url(Main.jpeg);
+    position: relative;
 }
 html {
     font-size: 10px;
@@ -30,9 +32,6 @@ html {
     color:	#0a3c4b	;
     margin: 100px;
 }
-p,li {
-    line-height: 1;
-}
 li {
     list-style-type: none;
 }
@@ -40,14 +39,14 @@ li {
     font-size: 35px;
     text-align: center;
     line-height: 1;
-    margin: 144px;
+    margin: 132px;
     position: relative;
 }
 .Cabeçalho {
     background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
     display: flex;
     height: 90px;
-    width: 100%;
+    width: 96%;
     align-items: center;
     justify-content: right;
     font-size: 50px;
@@ -55,16 +54,23 @@ li {
     color: #ff0083;
     text-shadow: #000 2px 2px 0.2rem;
     border: 3px solid rgb(47, 50, 221);
+    position: fixed;
 }
 .Cadastrar {
     font-size: 50px;
+    position: relative;
 }
 .Seguir {
     font-size: 50px;
+    position: relative;
 }
 button {
     background-color: #89e2f8;
     border: 5px solid #0a5a8f;
+    overflow: hidden;
+    display: inline-block;
+    transition-duration: 0.3s;
+    position: absolute;
 }
 nav a {
     padding: 0 15px 0 0;
@@ -86,4 +92,24 @@ button a:hover {
 }
 button:active {
     color: #ca1140;
+}
+.Pé {
+    background: center / cover url(https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-blue-background-design-template-image_290148.jpg);
+    display: flex;
+    width: 97%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid transparent;
+    padding: 8px;
+    border-image: url(https://png.pngtree.com/background/20210711/original/pngtree-blue-watercolor-background-picture-image_1166464.jpg) 30 round;
+}
+h2 {
+    color: #17158f;
+}
+nav img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
 }
