@@ -10,6 +10,7 @@
     color: #ff0083;
     text-shadow: #000 2px 2px 0.2rem;
     border: 3px solid rgb(47, 50, 221);
+    position: fixed;
 }
 .Cadastrar {
     font-size: 50px;
