@@ -87,7 +87,7 @@ button:active {
 .Pé {
     background: center / cover url(https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-blue-background-design-template-image_290148.jpg);
     display: flex;
-    min-width: 97%;
+    width: 97%;
     min-height: 300px;
     align-items: center;
     justify-content: center;

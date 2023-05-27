@@ -15,7 +15,7 @@
     font-size: 50px;
 }
 body {
-    min-width: 97%;
+    width: 97%;
     min-height: 913px;
     margin: 0 auto;
     background-color:#73ecec;
