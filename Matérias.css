@@ -1,8 +1,8 @@
 .Cabeçalho {
     background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
     display: flex;
-    height: 90px;
-    width: 97%;
+    min-height: 90px;
+    min-width: 97%;
     align-items: center;
     justify-content: right;
     font-size: 50px;
@@ -21,8 +21,8 @@
     font-size: 50px;
 }
 body {
-    width: 97%;
-    height: 100%;
+    min-width: 97%;
+    min-height: 100%;
     margin: 0 auto;
     background-color:#73ecec;
     padding: 0 20px 20px 20px;
@@ -110,8 +110,8 @@ button:hover {
 .Pé {
     background: center / cover url(https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-blue-background-design-template-image_290148.jpg);
     display: flex;
-    width: 98%;
-    height: 300px;
+    min-width: 98%;
+    min-height: 300px;
     align-items: center;
     justify-content: center;
     border: 7px solid transparent;
