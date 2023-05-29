@@ -31,6 +31,8 @@ html {
     margin: 0 auto;
 }
 h1 {
+    display: flex;
+    justify-content: center;
     font-size: 60px;
     text-align: center;
     margin: 0;
@@ -39,6 +41,8 @@ h1 {
     text-shadow: 1px 1px 1px 	black;
 }
 h2 {
+    display: flex;
+    justify-content: center;
     font-size: 35px;
     text-align: center;
     margin: 0;
