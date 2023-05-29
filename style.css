@@ -10,6 +10,8 @@ h1 {
     padding: 20px 0;
     color:	#0f708d	;
     text-shadow: 1px 1px 1px 	black;
+    display: flex;
+    justify-content: center;
 }
 body {
     min-width: 99%;
@@ -30,6 +32,8 @@ html {
     text-align: center;
     color:	#0a3c4b	;
     margin: 100px;
+    display: flex;
+    justify-content: center;
 }
 li {
     list-style-type: none;
