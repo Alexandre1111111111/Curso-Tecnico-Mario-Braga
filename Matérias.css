@@ -45,6 +45,8 @@ h1 {
     padding: 20px 0;
     color:	#b65746	;
     text-shadow: 1px 1px 1px 	black;
+    display: flex;
+    justify-content: center;
 }
 h2 {
     font-size: 50px;
@@ -52,6 +54,8 @@ h2 {
     margin: 0;
     padding: 20px 0;
     color:	#9e78bd	;
+    display: flex;
+    justify-content: center;
 }
 p {
     font-size: 30px;
@@ -60,6 +64,8 @@ p {
     padding: 20px 0;
     color:	#00ccff	;
     line-height: 1.5;
+    display: flex;
+    justify-content: center;
 }
 button {
     background-color: #89e2f8;
