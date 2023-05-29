@@ -19,7 +19,6 @@ body {
     min-height: 913px;
     margin: 0 auto;
     background-color:#73ecec;
-    border: 3px solid rgb(66, 69, 233);
     background: center / cover url(Seguirimg.jpeg);
 }
 html {
