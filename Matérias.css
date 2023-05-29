@@ -2,7 +2,7 @@
     background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
     display: flex;
     min-height: 90px;
-    min-width: 97%;
+    min-width: 99.3%;
     align-items: center;
     justify-content: right;
     font-size: 50px;
@@ -25,7 +25,6 @@ body {
     min-height: 100%;
     margin: 0 auto;
     background-color:#73ecec;
-    padding: 0 20px 20px 20px;
     border: 3px solid rgb(66, 69, 233);
     background: center / cover url(Matériaimg.jpeg);
 }
