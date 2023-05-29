@@ -23,7 +23,6 @@ body {
     min-height: 100%;
     margin: 0 auto;
     background-color:#73ecec;
-    border: 3px solid rgb(66, 69, 233);
     background: center / cover url(Sobreimg.jpeg);
 }
 html {
