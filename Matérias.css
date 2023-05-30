@@ -41,6 +41,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     margin: 0;
+    padding: 20px 0;
     color:	#b65746	;
     text-shadow: 1px 1px 1px 	black;
     display: flex;
@@ -50,6 +51,7 @@ h2 {
     font-size: 50px;
     text-align: center;
     margin: 0;
+    padding: 20px 0;
     color:	#9e78bd	;
     display: flex;
     justify-content: center;
@@ -58,6 +60,7 @@ p {
     font-size: 30px;
     text-align: center;
     margin: 0;
+    padding: 20px 0;
     color:	#00ccff	;
     line-height: 1.5;
     display: flex;
