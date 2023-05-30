@@ -73,6 +73,7 @@ button {
     display: inline-block;
     transition-duration: 0.3s;
     position: absolute;
+    cursor: pointer;
 }
 nav a {
     padding: 0 15px 0 0;
