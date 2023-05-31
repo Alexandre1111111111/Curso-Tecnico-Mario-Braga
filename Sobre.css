@@ -92,6 +92,7 @@ button:hover {
 }
 button a:hover {
     color: #ca1140;
+    transition-duration: 0.3s;
 }
 button:active {
     color: #ca1140;

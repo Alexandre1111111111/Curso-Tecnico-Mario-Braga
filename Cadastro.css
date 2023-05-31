@@ -4,12 +4,13 @@
     min-height: 90px;
     min-width: 99.3%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
     font-size: 50px;
     font: "Open Sans", sans-serif;
     color: #ff0083;
     text-shadow: #000 2px 2px 0.2rem;
     border: 3px solid rgb(47, 50, 221);
+    position: fixed;
 }
 .Seguir {
     font-size: 50px;
@@ -94,6 +95,7 @@ button:hover {
 }
 button a:hover {
     color: #ca1140;
+    transition-duration: 0.3s;
 }
 button:active {
     color: #ca1140;
