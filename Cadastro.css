@@ -52,24 +52,24 @@ h2 {
 .Conta {
     display: flex;
     justify-content: center;
-    height: 30px;
+    min-height: 30px;
 }
 .Senha {
     display: flex;
     justify-content: center;
-    height: 30px;
+    min-height: 30px;
 }
 .Cadastrar {
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    height: 40px;
+    min-height: 40px;
     font-size: 80px;
 }
 .Confirmar {
     display: flex;
     justify-content: center;
-    height: 150px;
+    min-height: 30px;
 }
 .Linha {
     width: 380px;
