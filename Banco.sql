@@ -5,6 +5,6 @@ use DBsql;
 create table contas(
 codigo int(6) auto_increment,
 email varchar(50) not null,
-senha varchar(30) not null,
+senha varchar(20) not null,
 primary key (codigo)
 );
