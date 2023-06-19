@@ -1,12 +1,9 @@
--- Active: 1685574299112@@127.0.0.1@3306@sakildbsql
-
+-- Active: 1686703178162@@127.0.0.1@3306@dbsql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Alexandre11122007Alews';
-create database DBsql;
+create database if not exists DBsql;
 use DBsql;
-create table contas(
-codigo int(6) auto_increment,
+create table if not exists contas(
+id_codigo smallint auto_increment primary key,
 email varchar(50) not null,
-senha varchar(20) not null,
-primary key (codigo)
-show table
+senha varchar(20) not null 
 );
