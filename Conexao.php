@@ -2,9 +2,9 @@
 
 $host="localhost";
 $port=3306;
-$socket="";
+$socket="/var/run/mysqld/mysqld.sock";
 $user="root";
-$password="";
+$password="Alexandre11122007Alews";
 $dbname="dbsql";
 
 $con = new mysqli($host, $user, $password, $dbname, $port, $socket)
