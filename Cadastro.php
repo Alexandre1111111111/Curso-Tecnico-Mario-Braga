@@ -55,7 +55,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 }
 ?>
 <h1>Cadastrar</h1>
-    <form action="" method="post">
+    <form action="" method="POST">
         <h2><label for="email"></label>E-mail</h2>
     <div class="Conta">
         <input type="email" id="email" pattern="+.com" name="email" required size="40" placeholder="Digite o E-mail">

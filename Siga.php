@@ -22,7 +22,7 @@
 </div>
 <body>
     <h1>Entrar</h1>
-    <form action="Login.php" method="post">
+    <form action="Login.php" method="POST">
         <h2><label for="email"></label>E-mail</h2>
     <div class="Conta">
         <input type="email" id="login" name="login" pattern="+.com" required size="40" placeholder="Digite o E-mail">
