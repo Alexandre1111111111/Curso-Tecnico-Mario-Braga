@@ -1,0 +1,251 @@
+.Main {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color:	#0f708d	;
+    text-shadow: 1px 1px 1px 	black;
+    display: flex;
+    justify-content: center;
+}
+body {
+    min-width: 99%;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color:#73ecec;
+    background: center / cover url(Main.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.Introdução {
+    font-size: 30px;
+    text-align: center;
+    color:	#0a3c4b	;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style-type: none;
+}
+.Continuações {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    margin-bottom: 150px;
+}
+.Continuações button{
+    height: 50px;
+    width: 140px;
+    font-size: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #3dc9f3;
+}
+.Dici:hover {
+    background-color: #73facd;
+    border-color: #6a33ec;
+    color: #6a33ec;
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Cur:hover {
+    background-color: #73facd;
+    border-color: #6a33ec;
+    color: #6a33ec;
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Col:hover {
+    background-color: #73facd;
+    border-color: #6a33ec;
+    color: #6a33ec;
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Sob:hover {
+    background-color: #73facd;
+    border-color: #6a33ec;
+    color: #6a33ec;
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Cabeçalho {
+    background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
+    min-height: 90px;
+    min-width: 99.5%;
+    font: "Open Sans", sans-serif;
+    color: #ff0083;
+    text-shadow: #000 2px 2px 0.2rem;
+    border: 3px solid rgb(47, 50, 221);
+    position: fixed;
+}
+.Cadastrar {
+    display: inline-block;
+    font-size: 50px;
+    position: absolute;
+    background-color: #89e2f8;
+    border: 5px solid #0a5a8f;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    right: 270px;
+    top: 10px;
+}
+.Seguir {
+    display: inline-block;
+    font-size: 50px;
+    position: absolute;
+    background-color: #89e2f8;
+    border: 5px solid #0a5a8f;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    right: 100px;
+    top: 10px;
+}
+.Eng {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+.Eng img {
+    max-height: 85px;
+    visibility: visible;
+}
+.sett {
+    display: inline-block;
+    visibility: hidden;
+    cursor: pointer;
+    z-index: 2;
+}
+.Eng a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+.rotate {
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
+}
+.rback {
+    transform: rotate(0deg);
+    transition-duration: 0.5s;
+}
+.drop {
+    display: none;
+    position: absolute;
+    background-color: rgb(121, 219, 226);
+    right: 0px;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px #000;
+    z-index: 1;
+}
+.show {
+    display:block;
+}
+.drop a:hover {
+    background-color: #72aff5;
+}
+.Log {
+    display: inline-block;
+}
+button a:visited {
+    color: blue;
+}
+.Cadastrar:hover {
+    background-color: #a0fadc;
+    border-color: #6a33ec;
+    color: #6a33ec;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Cadastrar:active {
+    color: #ca1140;
+    border-color: #ca1140;
+}
+.Seguir:hover {
+    background-color: #a0fadc;
+    border-color: #6a33ec;
+    color: #6a33ec;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.Seguir:active {
+    color: #ca1140;
+    border-color: #ca1140;
+}
+.Pé {
+    background: center / cover url(https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-blue-background-design-template-image_290148.jpg);
+    display: flex;
+    min-width: 97%;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    border: 7px solid transparent;
+    padding: 8px;
+    border-image: url(https://png.pngtree.com/background/20210711/original/pngtree-blue-watercolor-background-picture-image_1166464.jpg) 30 round;
+}
+h3 {
+    text-align: center;
+    color: #17158f;
+    font-size: 15px;
+}
+h2 {
+    color: #17158f;
+    font-size: 15px;
+}
+.Icon {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+.Logofoot {
+    margin-left: 60px;
+}
+@media screen and (max-width:600px){
+    .Continuações {
+        display: grid;
+    }
+    .Cadastrar {
+        font-size: 25px;
+        width: 170px;
+        right: 200px;
+        top: 23px;
+    }
+    .Seguir {
+        font-size: 25px;
+        width: 90px;
+        top: 23px;
+    }
+    .Eng, .Eng img{
+        height: 75px;
+        top: 5px;
+        right: 13px;
+    }
+}
+@media screen and (max-width:400px){
+    .Cadastrar {
+        top: 5px;
+        right: 120px;
+    }
+    .Seguir {
+        top: 45px;
+        right: 120px;
+        width: 170px;
+    }
+    .Eng, .Eng img {
+        right: 25px;
+    }
+}
