@@ -1,6 +1,3 @@
-<?php
-    session_start();
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,22 +13,17 @@
 <script src="Script.js"></script>
 <div class="Cabeçalho">
     <header>
-    <?php
-    if($_SESSION){
-    echo $_SESSION["usuario"];
-    }
-    ?>
-        <a style="text-decoration: none;" href="Cadastro.php">
+        <a style="text-decoration: none;" href="Cadastro.html">
         <button type="button" class="Cadastrar">Cadastrar-se</button>
         </a>
-        <a style="text-decoration: none;" href="Siga.php">
+        <a style="text-decoration: none;" href="Siga.html">
         <button type="button" class="Seguir">Entrar</button>
         </a>
         <div class="Eng">
         <button type="button" id="config" onclick="Dropbox()" class="sett"><img id="Cog" src="https://cdn-icons-png.flaticon.com/512/6645/6645225.png" alt=""></button>
         <div class="drop" id="Box">
-            <a href="FeedBack.php">FeedBack</a>
-            <a href="Config.php">Configurações</a>
+            <a href="FeedBack.html">FeedBack</a>
+            <a href="Config.html">Configurações</a>
         </div>
         </div>
     </header>
@@ -46,16 +38,16 @@
             <p>O colégio Mário Braga disponibiliza algumas diciplinas para o desenvolvimento técnico dos alunos</p>
         </div>
     <div class="Continuações">
-    <a style="text-decoration: none;" href="Matérias.php">
+    <a style="text-decoration: none;" href="Matérias.html">
     <button type="button" class="Dici">Diciplinas</button>
     </a>
-    <a style="text-decoration: none;" href="Curso.php">
+    <a style="text-decoration: none;" href="Curso.html">
     <button type="button" class="Cur">Curso</button>
     </a>
-    <a style="text-decoration: none;" href="Escola.php">
+    <a style="text-decoration: none;" href="Escola.html">
     <button type="button" class="Col">Colégio</button>
     </a>
-    <a style="text-decoration: none;" href="Sobre.php">
+    <a style="text-decoration: none;" href="Sobre.html">
     <button type="button" class="Sob">Sobre</button>
     </a>
     </div>
@@ -65,13 +57,5 @@
             <h3>Todos os direitos reservados ao colégio Mário Braga©</h3>
         </footer>
     </div>
-<?php
-    if($_SESSION){
-        if(isset($_POST["logout"])){
-            session_destroy();
-            header("Location: Cadastro.php");
-        }
-    }
-?>
 </body>
 </html>
