@@ -126,13 +126,12 @@ h1 {
     font-size: 60px;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
     color: #39caee;
     text-shadow: 1px 1px 1px #000;
 }
 .cds {
     border: 3px solid #5016f1;
-    margin: 0px 550px 0px 550px;
+    margin: 130px 550px 0px 550px;
     background-image: url(Formback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,4 +148,171 @@ h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
+}
+.rt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #0861aa;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+.Linha {
+    width: 525px;
+    height: 5px;
+    background-color: #004ef5;
+    border-color: #73ecec;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.evr {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#enviar {
+    font-size: 45px;
+    cursor: pointer;
+    background-color: #5ec6e6;
+    border-color: #0a5a8f;
+    width: 170px;
+}
+#enviar:hover {
+    background-color: #a0fadc;
+    border-color: #6a33ec;
+    color: #6a33ec;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.3s;
+}
+.res {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+#reset {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #5ec6e6;
+    border-color: #0a5a8f;
+    width: 150px;
+}
+#reset:hover {
+    background-color: #a0fadc;
+    border-color: #6a33ec;
+    color: #6a33ec;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.3s;
+}
+@media screen and (max-width:1550px) {
+    .Linha {
+        width: 325px;
+    }
+}
+@media screen and (max-width:1600px) {
+    .cds {
+        margin: 130px 450px 0px 450px;
+    }
+    .Linha {
+        width: 425px;
+    }
+}
+@media screen and (max-width:1370px) {
+    .cds {
+        margin: 130px 350px 0px 350px;
+    }
+    .Linha {
+        width: 300px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .cds {
+        margin: 130px 250px 0px 250px;
+    }
+    .Linha {
+        width: 250px;
+    }
+}
+@media screen and (max-width:950px) {
+    .cds {
+        margin: 130px 150px 0px 150px;
+    }
+}
+@media screen and (max-width:770px) {
+    .cds {
+        margin: 130px 50px 0px 50px;
+    }
+    .Seguir {
+        font-size: 25px;
+        top: 23px;
+    }
+    .Cadastrar {
+        font-size: 25px;
+        width: 170px;
+        right: 200px;
+        top: 23px;
+    }
+    .Eng, .Eng img{
+        height: 75px;
+        top: 5px;
+    }
+    .drop {
+        top: 88px;
+    }
+}
+@media screen and (max-width:560px) {
+    .cds {
+        margin: 90px 0px 0px 0px;
+    }
+    .Seguir {
+        right: 90px;
+    }
+    .Cadastrar {
+        right: 190px;
+    }
+    .Eng, .Eng img {
+        right: 0px;
+        top: 5px;
+    }
+}
+@media screen and (max-width:340px) {
+    #enviar {
+        width: 200px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    #cadastrar {
+        width: 200px;
+    }
+}
+@media screen and (max-width:360px) {
+    .Voltar {
+        height: 50px;
+        top: 18px;
+    }
+    .Cadastrar {
+        font-size: 20px;
+        width: 140px;
+        top: 28px;
+    }
+    .Seguir {
+        right: 90px;
+    }
+}
+@media screen and (max-width:470px) {
+    .Cadastrar {
+        font-size: 20px;
+        width: 140px;
+        top: 5px;
+        right: 100px;
+    }
+    .Seguir {
+        font-size: 20px;
+        right: 100px;
+        width: 140px;
+        top: 45px;
+    }
+    .str img {
+        height: 40px;
+    }
 }

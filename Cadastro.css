@@ -62,7 +62,7 @@
     min-width: 100px;
     box-shadow: 2px 2px 5px #000;
     z-index: 1;
-    top: 98px;
+    top: 92px;
 }
 .show {
     display:block;
@@ -83,7 +83,7 @@
 body {
     margin: 0 auto;
     background-color:#73ecec;
-    background: center / cover url(Cadastroback.jpeg);
+    background: center / cover url(Cadastro.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -96,7 +96,7 @@ html {
     display: inline-block;
     height: 80px;
     position: absolute;
-    top: 5px;
+    top: 2px;
     left: 5px;
 }
 h1 {
@@ -177,7 +177,9 @@ h2 {
 }
 .Linha {
     width: 525px;
-    border-color: #5016f1;
+    height: 5px;
+    background-color: #004ef5;
+    border-color: #73ecec;
     margin-top: 70px;
 }
 .cds {

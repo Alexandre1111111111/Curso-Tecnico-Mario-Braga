@@ -157,7 +157,9 @@ h2 {
 }
 .Linha {
     width: 525px;
-    border-color: #5016f1;
+    height: 5px;
+    background-color: #004ef5;
+    border-color: #73ecec;
     margin-top: 90px;
 }
 button {
@@ -195,9 +197,10 @@ button:active {
 .cds {
     border: 3px solid #5016f1;
     margin: 0px 550px 0px 550px;
-    background-image: url(Entrar.jpg);
+    background-image: url(form.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .seg {
     margin-top: 70px;
@@ -208,7 +211,7 @@ button:active {
 }
 .seg a {
     text-decoration: none;
-    color: #001dc2;
+    color: #00c298;
 }
 @media screen and (max-width:1550px) {
     .Linha {
