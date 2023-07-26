@@ -138,21 +138,25 @@ h2 {
     background-color: #abdeff;
     border-color: #922ed4;
     color: rgb(83, 25, 243);
+    border-radius: 10px;
 }
 #email {
     background-color: #abdeff;
     border-color: #922ed4;
     color: rgb(83, 25, 243);
+    border-radius: 10px;
 }
 #senha {
     background-color: #abdeff;
     border-color: #922ed4;
     color: rgb(83, 25, 243);
+    border-radius: 10px;
 }
 #confirmar {
     background-color: #abdeff;
     border-color: #922ed4;
     color: rgb(83, 25, 243);
+    border-radius: 10px; 
 }
 #cadastrar {
     height: 60px;
@@ -162,6 +166,7 @@ h2 {
     cursor: pointer;
     background-color: #5ec6e6;
     margin-bottom: 76px;
+    border-radius: 10px;
 }
 #cadastrar:hover {
     background-color: #a0fadc;
@@ -176,7 +181,7 @@ h2 {
     height: 30px;
 }
 .Linha {
-    width: 525px;
+    width: 475px;
     height: 5px;
     background-color: #004ef5;
     border-color: #73ecec;
@@ -217,6 +222,9 @@ button a:visited {
 .chbox a {
     text-decoration: none;
     color: #b4d8f0;
+}
+#check {
+    cursor: pointer;
 }
 @media screen and (max-width:1550px) {
     .Linha {

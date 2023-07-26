@@ -127,16 +127,19 @@ html {
     background-color: #abdeff;
     border-color: #922ed4;
     color: rgb(83, 25, 243);
+    border-radius: 10px;
 }
 #email {
     background-color: #abdeff;
     border-color: #922ed4;
     color: rgb(83, 25, 243);
+    border-radius: 10px;
 }
 #senha {
     background-color: #abdeff;
     border-color: #922ed4;
     color: rgb(83, 25, 243);
+    border-radius: 10px;
 }
 h1 {
     font-size: 60px;
@@ -186,6 +189,7 @@ button:active {
     background-color: #5ec6e6;
     margin-bottom: 10px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 #entrar:hover {
     background-color: #a0fadc;

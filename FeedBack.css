@@ -135,6 +135,11 @@ h1 {
     background-image: url(Formback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px;
+}
+.cds:hover {
+    border: 2px solid #5016f1 ;
+    transition-duration: 0.5s;
 }
 .str img {
     height: 80px;
@@ -176,6 +181,7 @@ h1 {
     background-color: #5ec6e6;
     border-color: #0a5a8f;
     width: 170px;
+    border-radius: 10px;
 }
 #enviar:hover {
     background-color: #a0fadc;
@@ -195,6 +201,7 @@ h1 {
     background-color: #5ec6e6;
     border-color: #0a5a8f;
     width: 150px;
+    border-radius: 10px;
 }
 #reset:hover {
     background-color: #a0fadc;

@@ -16,33 +16,33 @@ function Dropbox() {
   }
 }
 function actstr1() {
-    document.getElementById("str1").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
-    document.getElementById("str2").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
-    document.getElementById("str3").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
-    document.getElementById("str4").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
-    document.getElementById("str5").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
-  }
+  document.getElementById("str1").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
+  document.getElementById("str2").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
+  document.getElementById("str3").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
+  document.getElementById("str4").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
+  document.getElementById("str5").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
+}
 function actstr12() {
-    document.getElementById("str2").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
-    document.getElementById("str1").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
-    document.getElementById("str3").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
-    document.getElementById("str4").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
-    document.getElementById("str5").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
-  }
+  document.getElementById("str2").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
+  document.getElementById("str1").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
+  document.getElementById("str3").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
+  document.getElementById("str4").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
+  document.getElementById("str5").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
+}
 function actstr123() {
   document.getElementById("str3").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
   document.getElementById("str1").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
   document.getElementById("str2").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
   document.getElementById("str4").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
   document.getElementById("str5").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
- }
+}
 function actstr1234() {
   document.getElementById("str4").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
   document.getElementById("str1").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
   document.getElementById("str2").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
   document.getElementById("str3").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
   document.getElementById("str5").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
- }
+}
 function actstr12345() {
   document.getElementById("str1").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
   document.getElementById("str2").src='https://cdn-icons-png.flaticon.com/512/1828/1828614.png';
@@ -56,4 +56,21 @@ function redef() {
   document.getElementById("str3").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
   document.getElementById("str4").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
   document.getElementById("str5").src='https://cdn-icons-png.flaticon.com/512/1828/1828970.png';
+}
+function verify() {
+if (document.getElementById("str1").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str2").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str3").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str4").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str5").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png') {
+  let str12345 = 5;
+}
+else if (document.getElementById("str1").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str2").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str3").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str4").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png') {
+  let str1234 = 4;
+}
+else if (document.getElementById("str1").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str2").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str3").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png') {
+  let str123 = 3;
+}
+else if (document.getElementById("str1").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png' && document.getElementById("str2").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png') {
+  let str12 = 2;
+}
+else if (document.getElementById("str1").src=='https://cdn-icons-png.flaticon.com/512/1828/1828614.png') {
+  let str1 = 1;
+}
 }
