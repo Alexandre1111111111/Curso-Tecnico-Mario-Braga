@@ -98,12 +98,7 @@
     font-size: 30px;
     padding: 10px 15px;
 }
-.rotate {
-    transform: rotate(90deg);
-    transition-duration: 0.5s;
-}
-.rback {
-    transform: rotate(0deg);
+#Cog {
     transition-duration: 0.5s;
 }
 .drop {
@@ -337,7 +332,7 @@ h3 {
         right: 25px;
     }
     .idces a {
-        font-size: 14px;
+        font-size: 16.5px;
     }
     .idces ul {
         position: relative;
@@ -368,5 +363,26 @@ h3 {
 @media screen and (max-width:1000px) {
     .iimg, .dimg, .cimg, .eimg, .simg {
         display: none;
+    }
+}
+@media screen and (max-width:540px) {
+    .idces a {
+        padding-top: 5px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .idces li {
+        border-top: 2px solid #5f23eb;
+    }
+    .Pé {
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width:495px) and (min-width:401px) {
+    .idces a {
+        font-size: 20px;
+    }
+    .idces ul {
+        left: -5px;
     }
 }

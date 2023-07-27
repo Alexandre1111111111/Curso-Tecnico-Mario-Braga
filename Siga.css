@@ -44,12 +44,7 @@
     font-size: 30px;
     padding: 10px 15px;
 }
-.rotate {
-    transform: rotate(90deg);
-    transition-duration: 0.5s;
-}
-.rback {
-    transform: rotate(0deg);
+#Cog {
     transition-duration: 0.5s;
 }
 .drop {
@@ -60,7 +55,7 @@
     min-width: 100px;
     box-shadow: 2px 2px 5px #000;
     z-index: 1;
-    top: 98px;
+    top: 95px;
 }
 .show {
     display:block;
@@ -102,6 +97,11 @@ html {
     position: absolute;
     top: 5px;
     left: 5px;
+    border-radius: 20px;
+}
+.Voltar:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .Nome {
     display: flex;
@@ -140,6 +140,33 @@ html {
     border-color: #922ed4;
     color: rgb(83, 25, 243);
     border-radius: 10px;
+}
+#nome:hover {
+    border: 2px solid #6a33ec;
+    background-color: #86c7f3;
+    transition-duration: 0.3s;
+}
+#email:hover {
+    border: 2px solid #6a33ec;
+    background-color: #86c7f3;
+    transition-duration: 0.3s;
+}
+#senha:hover {
+    border: 2px solid #6a33ec;
+    background-color: #86c7f3;
+    transition-duration: 0.3s;
+}
+#nome::placeholder {
+    color: #363434;
+}
+#email::placeholder {
+    color: #363434;
+}
+#senha::placeholder {
+    color: #363434;
+}
+#evrform {
+    transition-duration: 0.3s;
 }
 h1 {
     font-size: 60px;
@@ -230,7 +257,7 @@ button:active {
         width: 425px;
     }
 }
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1360px) {
     .cds {
         margin: 0px 350px 0px 350px;
     }

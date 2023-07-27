@@ -46,12 +46,7 @@
     font-size: 30px;
     padding: 10px 15px;
 }
-.rotate {
-    transform: rotate(90deg);
-    transition-duration: 0.5s;
-}
-.rback {
-    transform: rotate(0deg);
+#Cog {
     transition-duration: 0.5s;
 }
 .drop {
@@ -83,7 +78,7 @@
 body {
     margin: 0 auto;
     background-color:#73ecec;
-    background: center / cover url(Cadastro.jpg);
+    background: center / cover url(Cadback.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -98,6 +93,11 @@ html {
     position: absolute;
     top: 2px;
     left: 5px;
+    border-radius: 20px;
+}
+.Voltar:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 h1 {
     font-size: 60px;
@@ -168,12 +168,47 @@ h2 {
     margin-bottom: 76px;
     border-radius: 10px;
 }
+#nome:hover {
+    border: 2px solid #6a33ec;
+    background-color: #86c7f3;
+    transition-duration: 0.3s;
+}
+#email:hover {
+    border: 2px solid #6a33ec;
+    background-color: #86c7f3;
+    transition-duration: 0.3s;
+}
+#senha:hover {
+    border: 2px solid #6a33ec;
+    background-color: #86c7f3;
+    transition-duration: 0.3s;
+}
+#confirmar:hover {
+    border: 2px solid #6a33ec;
+    background-color: #86c7f3;
+    transition-duration: 0.3s;
+}
 #cadastrar:hover {
     background-color: #a0fadc;
     border-color: #6a33ec;
     color: #6a33ec;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition-duration: 0.3s;
+}
+#cdsform {
+    transition-duration: 0.5s;
+}
+#nome::placeholder {
+    color: #363434;
+}
+#email::placeholder {
+    color: #363434;
+}
+#senha::placeholder {
+    color: #363434;
+}
+#confirmar::placeholder {
+    color: #363434;
 }
 .Confirmar {
     display: flex;
@@ -239,7 +274,7 @@ button a:visited {
         width: 425px;
     }
 }
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1360px) {
     .cds {
         margin: 0px 350px 0px 350px;
     }

@@ -136,12 +136,7 @@ li {
     font-size: 30px;
     padding: 10px 15px;
 }
-.rotate {
-    transform: rotate(90deg);
-    transition-duration: 0.5s;
-}
-.rback {
-    transform: rotate(0deg);
+#Cog {
     transition-duration: 0.5s;
 }
 .drop {
