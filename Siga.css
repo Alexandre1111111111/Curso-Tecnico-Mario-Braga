@@ -186,11 +186,12 @@ h2 {
     text-shadow: 1px 1px 1px 	black;
 }
 .Linha {
-    width: 525px;
+    max-width: 575px;
     height: 5px;
     background-color: #004ef5;
     border-color: #73ecec;
     margin-top: 90px;
+    transition-duration: 0.3s;
 }
 button {
     background-color: #89e2f8;
@@ -227,11 +228,15 @@ button:active {
 }
 .cds {
     border: 3px solid #5016f1;
-    margin: 0px 550px 0px 550px;
+    margin: 0 auto;
+    max-width: 575px;
     background-image: url(form.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.cds:hover {
+    box-shadow: 0 8px 16px 8px rgba(10, 30, 212, 0.2), 0 6px 20px 0 rgba(23, 163, 182, 0.19);
 }
 .seg {
     margin-top: 70px;
@@ -244,44 +249,7 @@ button:active {
     text-decoration: none;
     color: #00c298;
 }
-@media screen and (max-width:1550px) {
-    .Linha {
-        width: 325px;
-    }
-}
-@media screen and (max-width:1600px) {
-    .cds {
-        margin: 0px 450px 0px 450px;
-    }
-    .Linha {
-        width: 425px;
-    }
-}
-@media screen and (max-width:1360px) {
-    .cds {
-        margin: 0px 350px 0px 350px;
-    }
-    .Linha {
-        width: 300px;
-    }
-}
-@media screen and (max-width:1050px) {
-    .cds {
-        margin: 0px 250px 0px 250px;
-    }
-    .Linha {
-        width: 250px;
-    }
-}
-@media screen and (max-width:830px) {
-    .cds {
-        margin: 0px 150px 0px 150px;
-    }
-}
 @media screen and (max-width:640px) {
-    .cds {
-        margin: 0px 50px 0px 50px;
-    }
     .Cadastrar {
         font-size: 25px;
         width: 170px;

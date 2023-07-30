@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Configurações</title>
+    <title>Configurações - Curso Técnico Mário Braga</title>
     <link rel="stylesheet" href="Config.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
@@ -13,13 +13,13 @@
     <header>
     <a href="index.html"> <img class="Voltar" src="https://cdn-icons-png.flaticon.com/512/9073/9073020.png" alt="Logohead"></a></img>
         <a style="text-decoration: none;" href="Cadastro.html">
-        <button type="button" class="Cadastrar">Cadastrar-se</button>
+            <button type="button" class="Cadastrar">Cadastrar-se</button>
         </a>
         <a style="text-decoration: none;" href="Siga.html">
-        <button type="button" class="Seguir">Entrar</button>
+            <button type="button" class="Seguir">Entrar</button>
         </a>
         <div class="Eng">
-        <button type="button" id="config" onclick="Dropbox()" class="sett"><img id="Cog" src="https://cdn-icons-png.flaticon.com/512/6645/6645225.png" alt=""></button>
+            <button type="button" id="config" onclick="Dropbox()" class="sett"><img id="Cog" src="https://cdn-icons-png.flaticon.com/512/6645/6645225.png" alt=""></button>
         <div class="drop" id="Box">
             <a href="FeedBack.html">FeedBack</a>
             <a href="Config.html">Configurações</a>
@@ -27,9 +27,9 @@
         </div>
     </header>
 </div>
-<div class="cds">
+<div class="cds" id="sett" onmouseover="settbdr()" onmouseout="settlinbdr()">
 <h1>Configurações</h1>
-<hr class="Linha">
+<hr class="Linha" id="lin1">
 <label class="lin" for="lan">Linguagem
   <select name="linguagens" id="linguagens">
     <option lang="pt-br" value="Português" selected>Português</option>
@@ -39,26 +39,26 @@
     <option lang="de" value="Alemão">Alemão</option>
   </select>
 </label>
-<hr class="Linha">
+<hr class="Linha" id="lin2">
 <label class="des" for="desemp">Modo Desempenho
 <label class="switch">
   <input type="checkbox" id="selin">
   <span class="slider"></span>
 </label>
 </label>
-<hr class="Linha">
+<hr class="Linha" id="lin3">
 <label class="nt" for="ntf">Receber Notificações
 <label class="switch">
-  <input type="checkbox">
+  <input type="checkbox" id="not">
   <span class="slider"></span>
 </label>
 </label>
-<hr class="Linha">
+<hr class="Linha" id="lin4">
 <div class="cha">
-<input type="button" id="save" value="Salvar">
+<input type="button" id="save" onclick="salvarm()" value="Salvar">
 </div>
 <div class="rdf">
-  <input type="button" id="redef" value="Redefinir">
+  <input type="button" id="redef" onclick="redefm()" value="Redefinir">
 </div>
 </div>
 </body>

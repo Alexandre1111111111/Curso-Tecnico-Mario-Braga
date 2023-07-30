@@ -131,7 +131,9 @@ h1 {
 }
 .cds {
     border: 3px solid #5016f1;
-    margin: 130px 550px 0px 550px;
+    margin: 0 auto;
+    max-width: 575px;
+    margin-top: 120px;
     background-image: url(Formback.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,12 +167,13 @@ h1 {
     font-size: 25px;
 }
 .Linha {
-    width: 525px;
+    max-width: 525px;
     height: 5px;
     background-color: #004ef5;
     border-color: #73ecec;
     margin-top: 70px;
     margin-bottom: 60px;
+    transition-duration: 0.3s;
 }
 .evr {
     display: flex;
@@ -218,42 +221,11 @@ h1 {
     }
 }
 @media screen and (max-width:1600px) {
-    .cds {
-        margin: 130px 450px 0px 450px;
-    }
     .Linha {
         width: 425px;
     }
 }
-@media screen and (max-width:1420px) {
-    .cds {
-        margin: 130px 400px 0px 400px;
-    }
-}
-@media screen and (max-width:1330px) {
-    .cds {
-        margin: 130px 350px 0px 350px;
-    }
-}
-@media screen and (max-width:1180px) {
-    .cds {
-        margin: 130px 280px 0px 280px;
-    }
-}
-@media screen and (max-width:1080px) {
-    .cds {
-        margin: 130px 210px 0px 210px;
-    }
-}
-@media screen and (max-width:900px) {
-    .cds {
-        margin: 130px 140px 0px 140px;
-    }
-}
 @media screen and (max-width:770px) {
-    .cds {
-        margin: 130px 70px 0px 70px;
-    }
     .Seguir {
         font-size: 25px;
         top: 23px;
@@ -274,8 +246,13 @@ h1 {
 }
 @media screen and (max-width:630px) {
     .cds {
-        margin: 90px 0px 0px 0px;
+        max-width: none;
+        margin-top: 90px;
         border-radius: 0px;
+        padding-bottom: 131px;
+    }
+    body {
+        min-height: 100px ;
     }
     .Seguir {
         right: 90px;
@@ -332,5 +309,10 @@ h1 {
     }
     .Linha {
         width: 250px;
+    }
+}
+@media screen and (max-width:1050px) and (min-width:630px) {
+    body {
+        margin-bottom: 100px;
     }
 }

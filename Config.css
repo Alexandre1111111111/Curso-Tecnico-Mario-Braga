@@ -135,19 +135,25 @@ h1 {
     text-shadow: 1px 1px 1px 	black;
 }
 .cds {
-    border: 3px solid #5016f1;
-    margin: 0px 450px 0px 450px;
+    border: 3px solid #004ef5;
+    margin: 0 auto;
+    max-width: 725px;
     background-image: url(Config.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    transition-duration: 0.5s;
+}
+.cds:hover {
+    box-shadow: 0 8px 16px 8px rgba(10, 30, 212, 0.2), 0 6px 20px 0 rgba(23, 163, 182, 0.19);
 }
 .Linha {
-    width: 625px;
+    max-width: 725px;
     height: 5px;
     background-color: #004ef5;
     border-color: #73ecec;
     margin-top: 70px;
     margin-bottom: 60px;
+    transition-duration: 0.5s;
 }
 .switch {
     position: relative;
@@ -240,7 +246,7 @@ input:checked + .slider:before {
 }
 #save {
     cursor: pointer;
-    font-size: 40px;
+    font-size: 45px;
     background-color: #78e0ff;
     border: 3px solid #0a5a8f;
     border-radius: 10px;
@@ -264,6 +270,7 @@ input:checked + .slider:before {
 #redef {
     cursor: pointer;
     font-size: 30px;
+    width: 160px;
     background-color: #78e0ff;
     border: 3px solid #0a5a8f;
     border-radius: 10px;
@@ -274,42 +281,11 @@ input:checked + .slider:before {
     transition-duration: 0.3s;
 }
 @media screen and (max-width:1550px) {
-    .Linha {
-        width: 325px;
-    }
     #linguagens {
         margin-left: 30px;
     }
     .switch {
         margin-left: 30px;
-    }
-}
-@media screen and (max-width:1600px) {
-    .cds {
-        margin: 0px 450px 0px 450px;
-    }
-    .Linha {
-        width: 425px;
-    }
-}
-@media screen and (max-width:1370px) {
-    .cds {
-        margin: 0px 380px 0px 380px;
-    }
-}
-@media screen and (max-width:1320px) {
-    .cds {
-        margin: 0px 280px 0px 280px;
-    }
-}
-@media screen and (max-width:1150px) {
-    .cds {
-        margin: 0px 180px 0px 180px;
-    }
-}
-@media screen and (max-width:1030px) {
-    .cds {
-        margin: 0px 130px 0px 130px;
     }
 }
 @media screen and (max-width:900px) {
@@ -411,9 +387,6 @@ input:checked + .slider:before {
     }
     h1 {
         font-size: 50px;
-    }
-    .Linha {
-        width: 260px;
     }
 }
 @media screen and (max-width:370px) and (min-width:0px) {
