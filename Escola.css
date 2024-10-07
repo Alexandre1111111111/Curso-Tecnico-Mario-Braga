@@ -269,6 +269,14 @@ h3 {
 .Logofoot {
     margin-left: 60px;
 }
+#sec {
+    font-size: 3vh;
+    text-decoration: none;
+    position: absolute;
+    right: 2vh;
+    color: #1c0257;
+    text-shadow: 0.3vh 0.3vh 0.3vh #0011ff;
+}
 @media screen and (max-width:600px){
     .Continuações {
         display: grid;

@@ -1,10 +1,3 @@
-body {
-    margin: 0;
-    background: url(https://img.freepik.com/vetores-gratis/fundo-de-estilo-comico_23-2148809728.jpg?t=st=1727699400~exp=1727703000~hmac=996c3ad5ceceb7991fb32eddd70f4f73039ad3ab1190b3f6664e8f2580ad6075&w=1380);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
 .Continuações {
     display: flex;
     justify-content: space-evenly;
@@ -47,53 +40,53 @@ body {
     transition-duration: 0.3s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.Cabeçalho {
+header {
     background: center / cover url('https://img.freepik.com/vetores-gratis/degrade-de-fundo-azul_23-2149330355.jpg');
-    min-height: 9vh;
+    height: 10vh;
     width: 100%;
     font: "Open Sans", sans-serif;
     color: #ff0083;
-    text-shadow: #000 2px 2px 0.2rem;
-    border: 3px solid rgb(47, 50, 221);
+    text-shadow: #000 0.2vh 0.2vh 0.2vh;
+    border: 0.3vh solid rgb(47, 50, 221);
     position: fixed;
-    display: flex;
-    align-items: center;
     top: 0;
 }
 .Cadastrar {
     display: inline-block;
-    font-size: 50px;
-    position: absolute;
+    font-size: 5vh;
     background-color: #89e2f8;
-    border: 5px solid #0a5a8f;
+    border: 0.5vh solid #0a5a8f;
     overflow: hidden;
     transition-duration: 0.3s;
     cursor: pointer;
-    right: 270px;
-    top: 10px;
     z-index: 1;
+}
+.cd a {
+    margin-right: 2vh;
 }
 .Seguir {
     display: inline-block;
-    font-size: 50px;
-    position: absolute;
+    font-size: 5vh;
     background-color: #89e2f8;
-    border: 5px solid #0a5a8f;
+    border: 0.5vh solid #0a5a8f;
     overflow: hidden;
     transition-duration: 0.3s;
     cursor: pointer;
-    right: 100px;
-    top: 10px;
     z-index: 1;
+}
+.cd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    position: absolute;
+    right: 0;
 }
 .Eng {
     display: inline-block;
-    position: absolute;
-    right: -3px;
-    top: -3px;
 }
 .Eng img {
-    max-height: 85px;
+    height: 8vh;
     visibility: visible;
 }
 .sett {
@@ -103,11 +96,14 @@ body {
     z-index: 2;
 }
 .Eng a{
-    display: block;
+    display: flex;
     color: black;
     text-decoration: none;
-    font-size: 30px;
-    padding: 10px 15px;
+    font-size: 3vh;
+    height: 8vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 #Cog {
     transition-duration: 0.5s;
@@ -116,13 +112,13 @@ body {
     display: none;
     position: absolute;
     background-color: rgb(121, 219, 226);
-    right: 0px;
-    min-width: 100px;
-    box-shadow: 2px 2px 5px #000;
+    right: 0;
+    width: 26vh;
+    box-shadow: 0.2vh 0.2vh 0.5vh #000;
     z-index: 1;
 }
 .show {
-    display:block;
+    display: block;
 }
 .drop a:hover {
     background-color: #72aff5;
@@ -155,6 +151,9 @@ button a:visited {
 }
 .idces {
     display: flex;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
     height: 100%;
 }
 .idces ul {
@@ -163,27 +162,29 @@ button a:visited {
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-}
-.idces ul li a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
 }
 .idces a {
-    font-size: 35px;
+    font-size: 3.5vh;
     text-decoration: none;
-    padding: 1.5vh;
     display: block;
     text-align: center;
     color: #156ef3;
+    height: 100%;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .idces img {
-    height: 65px;
+    height: 6.5vh;
     z-index: 0;
 }
 .idces li {
     float: left;
     border-right: 2px solid #5f23eb;
+    height: 100%;
 }
 .idces a:hover:not(.e) {
     background-color: #8bc1ff;
@@ -193,11 +194,92 @@ button a:visited {
 .e {
     background-color: #3eadf7;
 }
+body {
+    height: 100vh;
+    margin: 0 auto;
+    background: center / cover url(mem.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 html {
-    font-size: 2vh;
     font-family: "Open Sans", sans-serif;
 }
+.logo {
+    padding-top: 13vh;
+    height: 25vh;
+    display: block;
+    margin: 0 auto;
+}
 .mem {
-    font-size: 3vh;
-    
+    display: flex;
+    justify-content: center;
+    font-size: 8vh;
+    text-align: center;
+    margin: 0;
+    padding: 3vh;
+    color:	#90c0ff	;
+    text-shadow: 0.1vh 0.1vh 0.1vh 	black;
+    margin-top: 12vh;
+    background-color: #142f52be;
+    border: 0.3vh solid #156ef3;
+    border-radius: 10vh;
+    margin-bottom: 3vh;
+}
+::-webkit-scrollbar {
+    width: 1vw;
+    background-color: #000000;
+    border: 0.1vh solid #39b5e6;
+    border-radius: 5vh;
+    box-shadow: inset 0px 0px 0px 0.1vh #ff960db4;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #70deff;
+    border-radius: 5vh;
+    border: 0.1vh solid #18525a;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #54d7e0;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #0fb8be;
+}
+.fts {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2vh;
+}
+.fts div {
+    width: 20vw;
+    height: 28vh;
+    background-color: #3aac0d;
+    border-radius: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 0.3vh solid #2a6b11;
+    overflow: hidden;
+}
+.fts div img {
+    height: 80%;
+    border-radius: 3vh;
+    user-select: none;
+}
+.fts div:hover {
+    background-color: #43b737;
+    transform: translateY(-1vh);
+}
+.fts div:active {
+    background-color: #125b09;
+    transform: translateY(0);
 }
