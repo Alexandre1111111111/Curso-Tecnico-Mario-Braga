@@ -50,6 +50,7 @@ header {
     border: 0.3vh solid rgb(47, 50, 221);
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 .Cadastrar {
     display: inline-block;
@@ -197,7 +198,7 @@ button a:visited {
 body {
     height: 100vh;
     margin: 0 auto;
-    background: center / cover url(mem.gif);
+    background: center / cover url(https://pa1.aminoapps.com/6895/743f5779facb1cb9a81e7517347e70a6186c218dr1-540-304_hq.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -206,6 +207,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-attachment: fixed;
 }
 html {
     font-family: "Open Sans", sans-serif;
@@ -223,10 +225,10 @@ html {
     text-align: center;
     margin: 0;
     padding: 3vh;
-    color:	#90c0ff	;
+    color:	rgb(126, 177, 243)	;
     text-shadow: 0.1vh 0.1vh 0.1vh 	black;
     margin-top: 12vh;
-    background-color: #142f52be;
+    background: linear-gradient(0deg, rgba(34,193,195,0.7539390756302521) 0%, rgba(65,45,253,0.8015581232492998) 100%);
     border: 0.3vh solid #156ef3;
     border-radius: 10vh;
     margin-bottom: 3vh;
@@ -236,10 +238,7 @@ html {
     background-color: #000000;
     border: 0.1vh solid #39b5e6;
     border-radius: 5vh;
-    box-shadow: inset 0px 0px 0px 0.1vh #ff960db4;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #70deff;
+    box-shadow: inset 0px 0px 0px 0.1vh;
     border-radius: 5vh;
     border: 0.1vh solid #18525a;
     cursor: pointer;
@@ -255,11 +254,17 @@ html {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 2vh;
+    margin: 3vh;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 0.3vh solid #17158f;
+    border-radius: 10vh;
+    padding: 3vh;
 }
 .fts div {
     width: 20vw;
     height: 28vh;
-    background-color: #3aac0d;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,118,1) 100%);
     border-radius: 10vh;
     display: flex;
     justify-content: center;
@@ -274,12 +279,36 @@ html {
     height: 80%;
     border-radius: 3vh;
     user-select: none;
+    width: 80%;
 }
 .fts div:hover {
-    background-color: #43b737;
+    background: linear-gradient(0deg, rgb(38, 148, 150) 0%, rgb(44, 218, 105) 100%);
     transform: translateY(-1vh);
 }
 .fts div:active {
-    background-color: #125b09;
+    background: linear-gradient(0deg, rgb(25, 104, 105) 0%, rgb(30, 163, 76) 100%);
     transform: translateY(0);
+}
+footer {
+    background: center / cover url(https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-blue-background-design-template-image_290148.jpg);
+    display: flex;
+    width: 100%;
+    min-height: 35vh;
+    align-items: center;
+    justify-content: center;
+    border: 0.7vh solid transparent;
+    margin-top: 3vh;
+    padding: 8px;
+    border-image: url(https://png.pngtree.com/background/20210711/original/pngtree-blue-watercolor-background-picture-image_1166464.jpg) 30 round;
+}
+h3 {
+    text-align: center;
+    color: #17158f;
+    font-size: 15px;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
