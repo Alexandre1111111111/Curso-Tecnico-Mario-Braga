@@ -51,6 +51,8 @@ header {
     position: fixed;
     top: 0;
     z-index: 10;
+    display: flex;
+    justify-content: space-between;
 }
 .Cadastrar {
     display: inline-block;
@@ -80,8 +82,6 @@ header {
     justify-content: center;
     align-items: center;
     width: fit-content;
-    position: absolute;
-    right: 0;
 }
 .Eng {
     display: inline-block;
@@ -243,6 +243,16 @@ html {
     border: 0.1vh solid #18525a;
     cursor: pointer;
 }
+::-webkit-scrollbar-track {
+    background-color: #18525a;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #39b5e6;
+    border-radius: 5vh;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border: 0.1vh solid #18525a;
+}
 ::-webkit-scrollbar-thumb:hover {
     background-color: #54d7e0;
 }
@@ -289,6 +299,103 @@ html {
     background: linear-gradient(0deg, rgb(25, 104, 105) 0%, rgb(30, 163, 76) 100%);
     transform: translateY(0);
 }
+.verct {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #00000085;
+    position: fixed;
+    z-index: 50;
+    transition-duration: 0.3s;
+    opacity: 0;
+}
+.ver {
+    width: 80%;
+    height: 80%;
+    background: linear-gradient(0deg, rgba(70,255,237,1) 26%, rgba(42,0,255,1) 100%);
+    border-radius: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1vh;
+    box-shadow: 0 1vh 2vh 0 rgba(0,0,0,0.2), 0 1vh 2vh 0 rgba(0,0,0,0.19);
+    border: 0.3vh solid #17a2b8;
+}
+.ver button {
+    background-color: #14b914;
+    color: #ffffff;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    height: 100%;
+    width: 10vw;
+    border: 0.3vh solid #124a64;
+}
+.ver button img {
+    height: fit-content;
+}
+.ver button:hover {
+    background-color: #286e0c;
+}
+.ver button:active {
+    background-color: #0f5c1c;
+}
+.ver img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#fch {
+    position: absolute;
+    top: -2vh;
+    right: -2vh;
+    background-color: #529c65;
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    border-radius: 5vh;
+    border: 0.3vh solid #156412;
+    object-fit: cover;
+    padding: 2vh;
+}
+#fch:hover {
+    background-color: #76d876;
+}
+#volt {
+    border-top-left-radius: 10vh;
+    border-bottom-left-radius: 10vh;
+    width: 8vw;
+}
+#prox {
+    border-top-right-radius: 10vh;
+    border-bottom-right-radius: 10vh;
+    width: 8vw;
+}
+#volt img {
+    transform: rotate(180deg);
+}
+#pimg {
+    width: 80%;
+    cursor: none;
+    user-select: none;
+}
+.zoom {
+    width: 15vw;
+    height: 20vh;
+    border: 1vh double #b4b3f8;
+    position: absolute;
+    display: none;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
 footer {
     background: center / cover url(https://png.pngtree.com/thumb_back/fw800/background/20190813/pngtree-blue-background-design-template-image_290148.jpg);
     display: flex;
@@ -304,11 +411,14 @@ footer {
 h3 {
     text-align: center;
     color: #17158f;
-    font-size: 15px;
+    font-size: 2vh;
 }
 footer div {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+footer img {
+    height: 28vh;
 }
