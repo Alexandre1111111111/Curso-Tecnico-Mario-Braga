@@ -58,8 +58,8 @@ function flw(e) {
 }
 
 function zoome(e){
-    e.offsetX ? offsetX = e.offsetX : offsetX = e.touches[0].pageX;
-    e.offsetY ? offsetY = e.offsetY : offsetX = e.touches[0].pageX;
+    if(e.offsetX) {offsetX = e.offsetX;}
+    if(e.offsetY) {offsetY = e.offsetY;}
     x = offsetX/pimg.offsetWidth*100;
     y = offsetY/pimg.offsetHeight*100;
     zoom.style.backgroundPosition = x + '% ' + y + '%';
