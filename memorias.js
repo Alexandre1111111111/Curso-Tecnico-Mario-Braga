@@ -6,6 +6,8 @@ const volt = document.querySelector("#volt");
 const prox = document.querySelector("#prox");
 const zoom = document.querySelector(".zoom");
 
+let im = 0;
+
 for (let i = 0; i < ftsd.length; i++) {
     ftsd[i].addEventListener("click", () =>{
         verct.style.display = "flex";
@@ -13,6 +15,7 @@ for (let i = 0; i < ftsd.length; i++) {
         verct.style.opacity = "1";
         }, 10)
         pimg.src = `i${i + 1}.jpg`;
+        im = i + 1;
         pimg.addEventListener("mouseover", () => {
             zoom.style.display = "block";
             zoom.style.background = `url(i${i + 1}.jpg)`;
@@ -27,19 +30,19 @@ fch.addEventListener("click", () =>{
 })
 
 prox.addEventListener("click", () =>{
-    let i = parseInt(pimg.src.match(/\d+/)) % ftsd.length + 1;
-    if (i > ftsd.length) {
-    i = 1;
+    im++;
+    if (im > ftsd.length) {
+    im = 1;
     }
-    pimg.src = `i${i}.jpg`;
+    pimg.src = `i${im}.jpg`;
 })
 
 volt.addEventListener("click", () =>{
-    let i = parseInt(pimg.src.match(/\d+/)) % ftsd.length - 1;
-    if (i < 1) {
-    i += ftsd.length;
+    im--;
+    if (im < 1) {
+    im += ftsd.length;
     }
-    pimg.src = `i${i}.jpg`;
+    pimg.src = `i${im}.jpg`;
 })
 
 pimg.addEventListener("mousemove", flw);
