@@ -229,8 +229,6 @@ h1 {
     text-shadow: 1px 1px 1px 	black;
 }
 p {
-    display: flex;
-    justify-content: center;
     font-size: 30px;
     text-align: center;
     margin: 50px;
@@ -276,6 +274,124 @@ h3 {
     right: 2vh;
     color: #ad8aff;
     text-shadow: 0.3vh 0.3vh 0.3vh #0011ff;
+}
+#seg {
+    cursor: pointer;
+}
+.morse {
+    background-color: #333131;
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    top: 10vh;
+    z-index: -1;
+    border-radius: 100%;
+    border: 1vh solid #000;
+    animation-duration: 15s;
+    animation-name: ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-end;
+}
+@keyframes ms {
+    0% {
+        background-color: #333131;
+    }
+    2% {
+        background-color: #fddc6f;
+    }
+    6% {
+        background-color: #333131;
+    }
+    8% {
+        background-color: #fddc6f;
+    }
+    10% {
+        background-color: #333131;
+    }
+    12% {
+        background-color: #fddc6f;
+    }
+    14% {
+        background-color: #333131;
+    }
+    22% {
+        background-color: #fddc6f;
+    }
+    24% {
+        background-color: #333131;
+    }
+    26% {
+        background-color: #fddc6f;
+    }
+    30% {
+        background-color: #333131;
+    }
+    38% {
+        background-color: #fddc6f;
+    }
+    40% {
+        background-color: #333131;
+    }
+    42% {
+        background-color: #fddc6f;
+    }
+    44% {
+        background-color: #333131;
+    }
+    46% {
+        background-color: #fddc6f;
+    }
+    48% {
+        background-color: #333131;
+    }
+    50% {
+        background-color: #fddc6f;
+    }
+    54% {
+        background-color: #333131;
+    }
+    56% {
+        background-color: #fddc6f;
+    }
+    58% {
+        background-color: #333131;
+    }
+    60% {
+        background-color: #fddc6f;
+    }
+    62% {
+        background-color: #333131;
+    }
+    0% {
+        background-color: #333131;
+    }
+    2% {
+        background-color: #fddc6f;
+    }
+    6% {
+        background-color: #333131;
+    }
+    8% {
+        background-color: #fddc6f;
+    }
+    10% {
+        background-color: #333131;
+    }
+    12% {
+        background-color: #fddc6f;
+    }
+    14% {
+        background-color: #333131;
+    }
+    22% {
+        background-color: #fddc6f;
+    }
+    24% {
+        background-color: #333131;
+    }
+    100% {
+        background-color: #6fd0fd;
+    }
 }
 @media screen and (max-width:600px){
     .Continuações {
