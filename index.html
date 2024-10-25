@@ -1,63 +1,158 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt" translate="no">
 <head>
+    <meta name="google" content="notranslate">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso Técnico Mário Braga</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>NextHome - O Melhor da Tecnologia para a sua Casa!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-    <link rel="Icon" href="https://images.vexels.com/media/users/3/224234/isolated/preview/ff7c525c1c3e1bef640644542001e1fd-logotipo-da-escola-online.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="Icon" href="logo2.png">
 </head>
 <body>
-<script src="Script.js"></script>
-<div class="Cabeçalho">
     <header>
-        <a style="text-decoration: none;" href="Cadastro.html">
-        <button type="button" class="Cadastrar">Cadastrar-se</button>
-        </a>
-        <a style="text-decoration: none;" href="Siga.html">
-        <button type="button" class="Seguir">Entrar</button>
-        </a>
-        <div class="Eng">
-        <button type="button" id="config" onclick="Dropbox()" class="sett"><img id="Cog" src="https://cdn-icons-png.flaticon.com/512/6645/6645225.png" alt=""></button>
-        <div class="drop" id="Box">
-            <a href="FeedBack.html">FeedBack</a>
-            <a href="Config.html">Configurações</a>
+        <div class="lg"></div>
+        <button id="vol">
+            <img src="https://cdn-icons-png.flaticon.com/512/7699/7699123.png" alt="">
+        </button>
+        <div class="search-container">
+        <form id="fm" action="/action_page.php" autocomplete="off">
+            <input type="text" id="sch" placeholder="Procurar.." name="search">
+            <button type="submit"><img src="https://cdn-icons-png.flaticon.com/512/342/342359.png" alt=""></button>
+            <ul id="myUL">
+                <li><a href="#"><img id="pr1" class="prs" src="xchair.png" alt=""><i id="nms">Cadeira Ergonomica Ultra-tecnológica - X-Chair</i></a></li>
+                <li><a href="#"><img id="pr2" class="prs" src="robo.png" alt=""><i id="nms">Robô Aspirador de Pó Smart - Ultra-Clean</i></a></li>
+              </ul>
+          </form>
+          </div>
+          <div class="cad">
+            <div class="nmu">
+                <h1 id="usu"></h1>
+            <div class="user"><img src="https://cdn-icons-png.flaticon.com/512/7915/7915522.png" alt=""></div>
         </div>
+            <div class="droplg">
+                <h1 id="nusu"></h1>
+                <div id="desl"><img src="https://cdn-icons-png.flaticon.com/512/3541/3541892.png" alt=""><h1>Sair</h1></div>
+            </div>
+            <a href="cadastro.html"><button id="ct">Cadastrar</button></a>
+            <a href="entrar.html"><button id="lg">Login</button></a>
+            <button id="lin"><img id="flag" src="https://cdn-icons-png.flaticon.com/512/630/630591.png" alt=""></button>
+            <div class="drop">
+                <div id="en"><img src="https://cdn-icons-png.flaticon.com/512/330/330425.png" alt=""><h1>English</h1></div>
+                <div id="es"><img src="https://cdn-icons-png.flaticon.com/512/330/330557.png" alt=""><h1>Español</h1></div>
+                <div id="pt"><img src="https://cdn-icons-png.flaticon.com/512/630/630591.png" alt=""><h1>Português</h1></div>
+                <div id="fr"><img src="https://cdn-icons-png.flaticon.com/512/321/321230.png" alt=""><h1>Francais</h1></div>
+                <div id="ru"><img src="https://cdn-icons-png.flaticon.com/512/330/330437.png" alt=""><h1>Русский</h1></div>
+            </div>
+          </div>
+          <div class="ld">
+            <h1>Categorias</h1>
+            <button id="mv">Móveis <img id="exc" src="https://cdn-icons-png.flaticon.com/512/3588/3588294.png" alt=""></button>
+            <button id="apr">Aparelhos <img id="exc2" src="https://cdn-icons-png.flaticon.com/512/3588/3588294.png" alt=""></button>
+            <button id="ele">Eletrodomésticos</button>
+            <button id="dv">Diversos</button>
+            <button id="nov">Novidades</button>
+            <div class="cpy">
+                <h1>NextHome Technologies©</h1>
+            </div>
+        </div>
+        <div class="off">
+            <h1 id="offtxt"></h1>
         </div>
     </header>
-</div>
-    <div class="Icon">
-        <img class="Main" src="https://images.vexels.com/media/users/3/224234/isolated/preview/ff7c525c1c3e1bef640644542001e1fd-logotipo-da-escola-online.png" alt="Logo">
-    </div>
-    <div class="Título">
-        <h1>Curso Técnico Mário Braga</h1>
-    </div>
-        <div class="Introdução">
-            <p>O colégio Mário Braga disponibiliza algumas diciplinas para o desenvolvimento técnico dos alunos</p>
+    <div class="prod">
+        <div class="moveis">
+
         </div>
-    <div class="Continuações">
-    <a style="text-decoration: none;" href="Matérias.html">
-    <button type="button" class="Dici">Diciplinas</button>
-    </a>
-    <a style="text-decoration: none;" href="Curso.html">
-    <button type="button" class="Cur">Curso</button>
-    </a>
-    <a style="text-decoration: none;" href="Escola.html">
-    <button type="button" class="Col">Colégio</button>
-    </a>
-    <a style="text-decoration: none;" href="Sobre.html">
-    <button type="button" class="Sob">Sobre</button>
-    </a>
+    <div class="aparelhos">
+
     </div>
-    <div class="Pé">
-        <footer>
-            <img class="Logofoot" src="https://images.vexels.com/media/users/3/224233/isolated/lists/d5ee0e9c87bb54cf867d7fb89c4570b8-logotipo-da-educacao-online.png" alt="LogoPé">
-            <h3>Todos os direitos reservados ao colégio Mário Braga©</h3>
-        </footer>
+    <div class="desc">
+        <div class="pimgs">
+            <div id="img1">
+                <img src="xchair.png" alt="">
+            </div>
+            <div id="img2">
+                <img src="x2.png" alt="">
+            </div>
+            <div id="img3">
+                <img src="x3.png" alt="">
+            </div>
+        </div>
+        <div class="descp">
+            <h1><i class="sp">Sobre o Produto</i><img src="https://cdn-icons-png.flaticon.com/512/5397/5397791.png" alt=""></h1>
+            <p class="p1">X-Chair é uma cadeira muito confortável, parecida com uma cadeira de carro, mas que tem rodinhas para ir e voltar, além de que ela pode se reposicionar para cima e para baixo, possuindo os botoẽs para aumentar e diminuir a intensidade da vibração, contendo o analógico para a cadeira se mexer e dois porta copos.</p>
+            <h1><i class="it">Informações Técnicas</i><img src="https://cdn-icons-png.flaticon.com/512/5397/5397791.png" alt=""></h1>
+            <p class="p2">Materiais e tecnologias: 	Plástico, Bateria, IA, Sensores, Couro, Lã, Ferro, Borracha, Fio de Cobre, Caixinha de som e hidráulica.</p>
+            <p class="p3">IA tem sensores para auxiliar a pessoa a não bater com velocidade máxima de 5 km/h.</p>
+            <p class="p4">Pode-se ativar e desativar a vibração, posicionar a cadeira do jeito que o usuário quiser e tem setinhas para rotacioná-la.</p>
+            <video class="vdi" loop autoplay muted>
+                <source src="vd.mp4" type="video/mp4">
+            </video>
     </div>
+    </div>
+    <div class="com">
+        <div class="newdes">
+            <h1>Novo</h1>
+        </div>
+        <div class="txtpct">
+        <h1 class="txtp"></h1>
+    </div>
+    <h1 class="descdsh"></h1>
+        <h1 class="prc"></h1>
+        <h1 class="par">12x de <em id="prej"></em> sem juros</h1>
+        <button id="cpr">Comprar</button>
+        <div class="inf">
+            <h1 id="fre"><img src="https://cdn-icons-png.flaticon.com/512/2203/2203124.png" alt="">Frete grátis</h1>
+        <h1 id="est"><em id="quant">14</em>x em estoque</h1>
+    </div>
+        <div class="av">
+            <div class="avtxt">
+                <h1>Avaliações</h1>
+        </div>
+        <div class="nt">
+            <h1 id="nota"><em id="prn"></em> /10</h1>
+        </div>
+        <div class="apl">
+        <div class="est">
+            <div class="e1"></div>
+            <div class="e2"></div>
+            <div class="e3"></div>
+            <div class="e4"></div>
+            <div class="e5"></div>
+        </div>
+        <div class="vvv">
+        <h1 class="vd"></h1>
+        <h1 class="avv"></h1>
+    </div>
+</div>
+        </div>
+        <div class="comentarios">
+            <div class="cttxt">
+                <h1>Comentários</h1>
+        </div>
+        <div class="cts">
+            <em id="nd">Não há comentários sobre esse produto</em>
+        </div>
+        <div class="cm">
+            <div class="re">
+                <div class="e1r"></div>
+                <div class="e2r"></div>
+                <div class="e3r"></div>
+                <div class="e4r"></div>
+                <div class="e5r"></div>
+            </div>
+        <input type="text" placeholder="Avalie o Produto.." id="coment">
+        <button id="cbtn">></button>
+    </div>
+        </div>
+    </div>
+</div>
+    <script src="nvs.js"></script>
+    <script src="var.js"></script>
+    <script src="lang.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
