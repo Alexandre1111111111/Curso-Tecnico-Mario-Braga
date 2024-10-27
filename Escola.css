@@ -268,10 +268,10 @@ h3 {
     margin-left: 60px;
 }
 #sec {
-    font-size: 3vh;
+    font-size: 4vh;
     text-decoration: none;
     position: absolute;
-    right: 2vh;
+    right: 2.5vh;
     color: #ad8aff;
     text-shadow: 0.3vh 0.3vh 0.3vh #0011ff;
     cursor: pointer;
@@ -294,6 +294,11 @@ h3 {
     animation-timing-function: step-end;
     cursor: pointer;
     display: none;
+}
+#tec {
+    height: 15vh;
+    margin-left: 10vh;
+    pointer-events: none;
 }
 @keyframes ms {
     0% {
